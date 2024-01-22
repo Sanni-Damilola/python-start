@@ -1,4 +1,2 @@
-print("   /|")
-print("  / |")
-print(" /  |")
-print("/___|")
+name = "Sanni"
+print(name + " is Cool")
