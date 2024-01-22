@@ -1,5 +1,5 @@
 def sayHi(name, age):
-    print("Hello " + name + "You are " + str(age))
+    print("Hello " + name + " You are " + str(age))
 
 sayHi("Sanni", 23)
 sayHi("Success", 40)
@@ -7,5 +7,5 @@ sayHi("Success", 40)
 def cube(num):
    return num * num * num
 
-
-print(cube(4))
+result = cube(4)
+print(result)
