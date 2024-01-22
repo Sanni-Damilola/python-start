@@ -4,7 +4,7 @@
 # print(family[1:3])
 # print(family)
 #
-luccky_numbers = [4,2,12,56,89,43, 4]
+luccky_numbers = [4, 2, 12, 56, 89, 43, 4]
 family = ["Sanni", "Ajose", "Idowu", "Babafemi", "Adele"]
 # family.extend(luccky_numbers) # join 2 list
 # family.append("Obadina") # add an item
