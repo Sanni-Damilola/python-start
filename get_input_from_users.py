@@ -1,2 +1,3 @@
 store_name = input("Enter Your Name: ")
-print("Hello " + store_name + "!" )
+age = input("Enter Your Age: ")
+print("Hello " + store_name + "! You are " +  age )
