@@ -1,2 +1,5 @@
 name = "Sanni"
-print(name + " is Cool")
+print(name.upper().isupper())
+
+print((len(name)))
+print(name[0])
