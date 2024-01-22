@@ -1,5 +1,5 @@
-def sayHi():
-    print("Hello User")
+def sayHi(name, age):
+    print("Hello " + name + "You are " + age)
 
-
-sayHi()
+sayHi("Sanni", "23")
+sayHi("Success", "40")
