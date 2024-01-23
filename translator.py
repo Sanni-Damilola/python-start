@@ -1,8 +1,11 @@
 def translate(phrase):
     translation = ""
     for value in phrase:
-        if value in "AEIOUaeiou":
-            translation = translation + "g"
+        if value.lower() in "aeiou":
+            if value.isupper():
+                translation = translation + "G"
+            else:
+                translation = translation + "g"
         else:
             translation = translation + value
     return translation
