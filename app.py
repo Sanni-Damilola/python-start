@@ -3,7 +3,7 @@ from question import Question
 
 student1 = student("Sanni", "Backend Developer", 4.5, False)
 student2 = student("Bola", "Software Developer", 2.3, True)
-print(student2.on_honor_rol())
+# print(student2.on_honor_rol())
 
 
 question_prompts = [
