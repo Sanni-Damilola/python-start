@@ -3,6 +3,9 @@ from question import Question
 
 student1 = student("Sanni", "Backend Developer", 4.5, False)
 student2 = student("Bola", "Software Developer", 2.3, True)
+print(student2.on_honor_rol())
+
+
 question_prompts = [
     "What Color are Apples?\n(a) Red/Green\n(b) Purple\n(c) Green",
     "What Color are Bananas?\n(a) Magenta\n(b) Teal\n(c) Yellow",
@@ -26,4 +29,4 @@ def run_test(questions):
 
     print(f"You got {score}/{total_questions} correct.")
 
-run_test(questions)
+# run_test(questions)
