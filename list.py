@@ -1,23 +1,23 @@
-# family = ["Sanni", "Ajose", "Idowu", "Babafemi", "Adele"]
-# family[0] = "Latteef"
-#
-# print(family[1:3])
-# print(family)
-#
-luccky_numbers = [4, 2, 12, 56, 89, 43, 4]
-family = ["Sanni", "Ajose", "Idowu", "Babafemi", "Adele"]
-# family.extend(luccky_numbers) # join 2 list
-# family.append("Obadina") # add an item
-# family.insert(1,"test") # add element in a specific index
-# family.remove("test") # remove element
-# # family.clear() # empty the array
-# family.pop() # remove the last element
-# print(family.index("Sanni"))
-# print(family.count(4))
-family.sort()
-luccky_numbers.reverse()
-luccky_numbers.sort()
-family2 = family.copy()
-# print(family)
-print(luccky_numbers)
-print(family2)
+myList = []
+myList.append(1)
+myList.append(2)
+myList.append(3)
+# print(myList[0])
+# print(myList[1])
+# print(myList[2])
+
+
+for x in myList: print(x)
+    
+myList = [1,2,3]
+# print(myList[10]) # error
+
+numbers = []
+string = []
+names = ["John", "Eric", "Jessica"]
+
+second_name = names[1]
+print(numbers)
+print(string)
+print(names)
+print("The Second name on the names list is %s" % second_name)
