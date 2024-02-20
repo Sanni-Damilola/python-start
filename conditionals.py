@@ -14,9 +14,8 @@ try:
     x = int(input("What's x? "))
     y = int(input("What's y? "))
 
-    if isinstance(x, str) or isinstance(y, str):
-        print("Error: x or y must be a number")
-    elif x < y:
+   
+    if x < y:
         print("x is less than y")
     elif x > y:
         print("x is greater than y")

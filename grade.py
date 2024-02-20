@@ -1,8 +1,6 @@
 
 try:
     score = int(input("Score: "))
-    if isinstance(score, str):
-        print("Input a number")
     if 90 <= score <= 100:
         print("Grade: A")
     elif 80 <= score <= 90:
@@ -15,3 +13,5 @@ try:
         print("Grade: F")
 except ValueError: 
     print("Score Must Be a Number")
+
+
